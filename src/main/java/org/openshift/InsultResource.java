@@ -23,7 +23,7 @@
     <meta http-equiv="Content-Language" content="en">
     <meta name="viewport" content="width=device-width">
     
-    <title>book-insultapp-final/InsultGenerator.java at master · rizkinpratama/book-insultapp-final</title>
+    <title>book-insultapp-final/InsultResource.java at master · rizkinpratama/book-insultapp-final</title>
     <link rel="search" type="application/opensearchdescription+xml" href="/opensearch.xml" title="GitHub">
     <link rel="fluid-icon" href="https://github.com/fluidicon.png" title="GitHub">
     <link rel="apple-touch-icon" href="/apple-touch-icon.png">
@@ -43,7 +43,7 @@
       <meta name="browser-stats-url" content="https://api.github.com/_private/browser/stats">
     <meta name="browser-errors-url" content="https://api.github.com/_private/browser/errors">
     <link rel="assets" href="https://assets-cdn.github.com/">
-    <link rel="web-socket" href="wss://live.github.com/_sockets/MjA5MjQ0MjM6ODNlYmE1ODEzODAwZjdjNTIyZTAwMzNlZmI0MmIyZTE6YjNmOWZlNjBkODBkZWNmNjBmNGUwYzQxOWE3YjlkZDQyNWQzNDBhNTFjZTkzZjJhMWQxOWQyZGQ0MWNjMDJiMA==--4a4eaf4241b97f65e099fe727cca41261c452343">
+    <link rel="web-socket" href="wss://live.github.com/_sockets/MjA5MjQ0MjM6ODNlYmE1ODEzODAwZjdjNTIyZTAwMzNlZmI0MmIyZTE6NTMxYWZiMWFkOTQwZjZkYWRlMDBkMGFmZWVkMDgzZWVhODVlMWY4YjY2NjgyMzgwMjYwYjA3ZDY2NGMyMDgzMw==--04b7bd2d4e39c432d6ade049ae08342c51e4574b">
     <meta name="pjax-timeout" content="1000">
     <link rel="sudo-modal" href="/sessions/sudo_modal">
 
@@ -55,7 +55,7 @@
 <meta name="google-site-verification" content="ZzhVyEFwb7w3e0-uOTltm8Jsck2F5StVihD0exw2fsA">
     <meta name="google-analytics" content="UA-3769691-2">
 
-<meta content="collector.githubapp.com" name="octolytics-host" /><meta content="github" name="octolytics-app-id" /><meta content="D99665E6:1225:BA3012:57A9F69B" name="octolytics-dimension-request_id" /><meta content="20924423" name="octolytics-actor-id" /><meta content="rizkinpratama" name="octolytics-actor-login" /><meta content="3d629df0f838348ac34367fc1fc2058426f50b8bf8987e7372b917ec8b4956fd" name="octolytics-actor-hash" />
+<meta content="collector.githubapp.com" name="octolytics-host" /><meta content="github" name="octolytics-app-id" /><meta content="D99665E6:1223:63BA52:57A9F645" name="octolytics-dimension-request_id" /><meta content="20924423" name="octolytics-actor-id" /><meta content="rizkinpratama" name="octolytics-actor-login" /><meta content="3d629df0f838348ac34367fc1fc2058426f50b8bf8987e7372b917ec8b4956fd" name="octolytics-actor-hash" />
 <meta content="/&lt;user-name&gt;/&lt;repo-name&gt;/blob/show" data-pjax-transient="true" name="analytics-location" />
 
 
@@ -68,7 +68,7 @@
     <meta name="user-login" content="rizkinpratama">
 
         <meta name="expected-hostname" content="github.com">
-      <meta name="js-proxy-site-detection-payload" content="ZjYzZGZiYzhkNjEzNTdlODlkOWJjMjliMmVjZGUyZDM2YWNmODYwZmJmZDViYmE0NTI1ZTQ3ODY0YTk0M2ZkMXx7InJlbW90ZV9hZGRyZXNzIjoiMjE3LjE1MC4xMDEuMjMwIiwicmVxdWVzdF9pZCI6IkQ5OTY2NUU2OjEyMjU6QkEzMDEyOjU3QTlGNjlCIiwidGltZXN0YW1wIjoxNDcwNzU2NTA3fQ==">
+      <meta name="js-proxy-site-detection-payload" content="MDhkMDExYmFlN2JmOGY0ZDNiNDQ4NjFkZDBhOTgxMTU2YjQ5OTZhYzk4ZWViNTY5M2U1YWEyYTljYWQxZWNlN3x7InJlbW90ZV9hZGRyZXNzIjoiMjE3LjE1MC4xMDEuMjMwIiwicmVxdWVzdF9pZCI6IkQ5OTY2NUU2OjEyMjM6NjNCQTUyOjU3QTlGNjQ1IiwidGltZXN0YW1wIjoxNDcwNzU2NDI2fQ==">
 
 
       <link rel="mask-icon" href="https://assets-cdn.github.com/pinned-octocat.svg" color="#4078c0">
@@ -88,7 +88,7 @@
   <link href="https://github.com/rizkinpratama/book-insultapp-final/commits/master.atom" rel="alternate" title="Recent Commits to book-insultapp-final:master" type="application/atom+xml">
 
 
-      <link rel="canonical" href="https://github.com/rizkinpratama/book-insultapp-final/blob/master/src/main/java/org/openshift/InsultGenerator.java" data-pjax-transient>
+      <link rel="canonical" href="https://github.com/rizkinpratama/book-insultapp-final/blob/master/src/main/java/org/openshift/InsultResource.java" data-pjax-transient>
   </head>
 
 
@@ -225,7 +225,7 @@
           Settings
         </a>
 
-        <!-- </textarea> --><!-- '"` --><form accept-charset="UTF-8" action="/logout" class="logout-form" data-form-nonce="227240cabcb6e2f398bacbe7e8792ce25f4d22b8" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="OKSWaUDNjFzxeLpJY2aa8JwSUp4kwaDfQCa8djxj88WD4txozF6X9nmgKsM29359SHaCQdk6LR9gLTvhANUG0Q==" /></div>
+        <!-- </textarea> --><!-- '"` --><form accept-charset="UTF-8" action="/logout" class="logout-form" data-form-nonce="227240cabcb6e2f398bacbe7e8792ce25f4d22b8" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="qV6DcOoEAdIr3Btuv5SHwLulZ4MddFBr1YqRDE8dOus0NxtDMNelRuYLb1yFDJ4FkFVEiIVy5AAsnjCw9gVVYQ==" /></div>
           <button class="dropdown-item dropdown-signout" data-ga-click="Header, sign out, icon:logout">
             Sign out
           </button>
@@ -261,7 +261,7 @@
 <ul class="pagehead-actions">
 
   <li>
-        <!-- </textarea> --><!-- '"` --><form accept-charset="UTF-8" action="/notifications/subscribe" class="js-social-container" data-autosubmit="true" data-form-nonce="227240cabcb6e2f398bacbe7e8792ce25f4d22b8" data-remote="true" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="YMjWpJqVV/sHhko81J82wpPRlxYlz2bRmsSiad9BYj1o2HF6aHWDaNFiRoQCkmkdAdoX7ffiuDD6aJt43RbryA==" /></div>      <input class="form-control" id="repository_id" name="repository_id" type="hidden" value="65303508" />
+        <!-- </textarea> --><!-- '"` --><form accept-charset="UTF-8" action="/notifications/subscribe" class="js-social-container" data-autosubmit="true" data-form-nonce="227240cabcb6e2f398bacbe7e8792ce25f4d22b8" data-remote="true" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="plai35rNxkogPjTAULhBm5XOihM0wWu0lcluJPJ6WQhOyFiYbPUeJjphqaxuylZGmpIdfEjPgcLJdhwVKQh0bQ==" /></div>      <input class="form-control" id="repository_id" name="repository_id" type="hidden" value="65303508" />
 
         <div class="select-menu js-menu-container js-select-menu">
           <a href="/rizkinpratama/book-insultapp-final/subscription"
@@ -336,7 +336,7 @@
     
   <div class="js-toggler-container js-social-container starring-container ">
 
-    <!-- </textarea> --><!-- '"` --><form accept-charset="UTF-8" action="/rizkinpratama/book-insultapp-final/unstar" class="starred" data-form-nonce="227240cabcb6e2f398bacbe7e8792ce25f4d22b8" data-remote="true" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="rBAun3AUWAYdkzCzZMFeK75c8YhE7+4UxQA4uftNy2Z2ZgY+S2Xnx8AcgW9X96M7+L6r1yJqQhhbEvNHjRTwCQ==" /></div>
+    <!-- </textarea> --><!-- '"` --><form accept-charset="UTF-8" action="/rizkinpratama/book-insultapp-final/unstar" class="starred" data-form-nonce="227240cabcb6e2f398bacbe7e8792ce25f4d22b8" data-remote="true" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="J9GCIwnXz2S5d2dEkkt66i9IDSWenTk3ifsy2F7DYv5PuG8VK3P5KjduFJWn1u62cZIWqG4EYH+meCpSI2kNjg==" /></div>
       <button
         class="btn btn-sm btn-with-count js-toggler-target"
         aria-label="Unstar this repository" title="Unstar rizkinpratama/book-insultapp-final"
@@ -348,7 +348,7 @@
           0
         </a>
 </form>
-    <!-- </textarea> --><!-- '"` --><form accept-charset="UTF-8" action="/rizkinpratama/book-insultapp-final/star" class="unstarred" data-form-nonce="227240cabcb6e2f398bacbe7e8792ce25f4d22b8" data-remote="true" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="wFSveoZbA3Sn1ozyW7zYw7s54PeD1vJqcxvkke61hDJJPBNMLTL6ZcbxwOrNfJWFQVDLqqNeTghI6F1rkOz/tA==" /></div>
+    <!-- </textarea> --><!-- '"` --><form accept-charset="UTF-8" action="/rizkinpratama/book-insultapp-final/star" class="unstarred" data-form-nonce="227240cabcb6e2f398bacbe7e8792ce25f4d22b8" data-remote="true" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="IBe/t9R9W+X7k8xlFyeCsECi5sVJuLC/9/ZAvYedPEUVxyW9X6TZ12KnBszR5eus3Zexq2Qd2Fz7PLnMdNHoNA==" /></div>
       <button
         class="btn btn-sm btn-with-count js-toggler-target"
         aria-label="Star this repository" title="Star rizkinpratama/book-insultapp-final"
@@ -364,7 +364,7 @@
   </li>
 
   <li>
-          <!-- </textarea> --><!-- '"` --><form accept-charset="UTF-8" action="/rizkinpratama/book-insultapp-final/fork" class="btn-with-count" data-form-nonce="227240cabcb6e2f398bacbe7e8792ce25f4d22b8" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="ZSEL6ffDd4icJGQAjzEHATqqnqYDfDiouT73jNlgdfWqT2GVhHgrHpOu2N8H4dGzaY6TmM+9+yAiPsqzJmA2pw==" /></div>
+          <!-- </textarea> --><!-- '"` --><form accept-charset="UTF-8" action="/rizkinpratama/book-insultapp-final/fork" class="btn-with-count" data-form-nonce="227240cabcb6e2f398bacbe7e8792ce25f4d22b8" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="jxHkgqeCuu7tcOI/5rm5I4cMlULq75iP2rHZxYylfu0STZtosWzT+BP30E6SqP2PTGUzY30V33t5s3t7DxOFbA==" /></div>
             <button
                 type="submit"
                 class="btn btn-sm btn-with-count"
@@ -444,9 +444,9 @@
 
     
 
-<a href="/rizkinpratama/book-insultapp-final/blob/e0f768ff113f979bc5b8a4f6ab3cf455b7ffb144/src/main/java/org/openshift/InsultGenerator.java" class="hidden js-permalink-shortcut" data-hotkey="y">Permalink</a>
+<a href="/rizkinpratama/book-insultapp-final/blob/e0f768ff113f979bc5b8a4f6ab3cf455b7ffb144/src/main/java/org/openshift/InsultResource.java" class="hidden js-permalink-shortcut" data-hotkey="y">Permalink</a>
 
-<!-- blob contrib key: blob_contributors:v21:8f0f5a2e2eb2c2454278e1f858c07b95 -->
+<!-- blob contrib key: blob_contributors:v21:23a3212d25a6f527b53f2d36f795ccb8 -->
 
 <div class="file-navigation js-zeroclipboard-container">
   
@@ -488,7 +488,7 @@
 
 
             <a class="select-menu-item js-navigation-item js-navigation-open selected"
-               href="/rizkinpratama/book-insultapp-final/blob/master/src/main/java/org/openshift/InsultGenerator.java"
+               href="/rizkinpratama/book-insultapp-final/blob/master/src/main/java/org/openshift/InsultResource.java"
                data-name="master"
                data-skip-pjax="true"
                rel="nofollow">
@@ -499,7 +499,7 @@
             </a>
         </div>
 
-          <!-- </textarea> --><!-- '"` --><form accept-charset="UTF-8" action="/rizkinpratama/book-insultapp-final/branches" class="js-create-branch select-menu-item select-menu-new-item-form js-navigation-item js-new-item-form" data-form-nonce="227240cabcb6e2f398bacbe7e8792ce25f4d22b8" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="PiG23O4ufIjbhLH5clF4S4AVgLbKtLWlvCHKVuDoodrIcTvcsbXXcboHtTIxiu4Lpaf0urgzPRbnmgNu7plX0Q==" /></div>
+          <!-- </textarea> --><!-- '"` --><form accept-charset="UTF-8" action="/rizkinpratama/book-insultapp-final/branches" class="js-create-branch select-menu-item select-menu-new-item-form js-navigation-item js-new-item-form" data-form-nonce="227240cabcb6e2f398bacbe7e8792ce25f4d22b8" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="NghXqLeFmYx4RRzRB/nbhb4V9zsjpRam7J2ohmSLwHEZfbmUZs0HvxC/wjf3ycq9/Vmh5g0f0/PvLJjhnv2Brg==" /></div>
           <svg aria-hidden="true" class="octicon octicon-git-branch select-menu-item-icon" height="16" version="1.1" viewBox="0 0 10 16" width="10"><path d="M10 5c0-1.11-.89-2-2-2a1.993 1.993 0 0 0-1 3.72v.3c-.02.52-.23.98-.63 1.38-.4.4-.86.61-1.38.63-.83.02-1.48.16-2 .45V4.72a1.993 1.993 0 0 0-1-3.72C.88 1 0 1.89 0 3a2 2 0 0 0 1 1.72v6.56c-.59.35-1 .99-1 1.72 0 1.11.89 2 2 2 1.11 0 2-.89 2-2 0-.53-.2-1-.53-1.36.09-.06.48-.41.59-.47.25-.11.56-.17.94-.17 1.05-.05 1.95-.45 2.75-1.25S8.95 7.77 9 6.73h-.02C9.59 6.37 10 5.73 10 5zM2 1.8c.66 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2C1.35 4.2.8 3.65.8 3c0-.65.55-1.2 1.2-1.2zm0 12.41c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zm6-8c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2z"></path></svg>
             <div class="select-menu-item-text">
               <span class="select-menu-item-heading">Create branch: <span class="js-new-item-name"></span></span>
@@ -507,7 +507,7 @@
             </div>
             <input type="hidden" name="name" id="name" class="js-new-item-value">
             <input type="hidden" name="branch" id="branch" value="master">
-            <input type="hidden" name="path" id="path" value="src/main/java/org/openshift/InsultGenerator.java">
+            <input type="hidden" name="path" id="path" value="src/main/java/org/openshift/InsultResource.java">
 </form>
       </div>
 
@@ -534,11 +534,11 @@
     <button aria-label="Copy file path to clipboard" class="js-zeroclipboard btn btn-sm zeroclipboard-button tooltipped tooltipped-s" data-copied-hint="Copied!" type="button">Copy path</button>
   </div>
   <div class="breadcrumb js-zeroclipboard-target">
-    <span class="repo-root js-repo-root"><span class="js-path-segment"><a href="/rizkinpratama/book-insultapp-final"><span>book-insultapp-final</span></a></span></span><span class="separator">/</span><span class="js-path-segment"><a href="/rizkinpratama/book-insultapp-final/tree/master/src"><span>src</span></a></span><span class="separator">/</span><span class="js-path-segment"><a href="/rizkinpratama/book-insultapp-final/tree/master/src/main"><span>main</span></a></span><span class="separator">/</span><span class="js-path-segment"><a href="/rizkinpratama/book-insultapp-final/tree/master/src/main/java"><span>java</span></a></span><span class="separator">/</span><span class="js-path-segment"><a href="/rizkinpratama/book-insultapp-final/tree/master/src/main/java/org"><span>org</span></a></span><span class="separator">/</span><span class="js-path-segment"><a href="/rizkinpratama/book-insultapp-final/tree/master/src/main/java/org/openshift"><span>openshift</span></a></span><span class="separator">/</span><strong class="final-path">InsultGenerator.java</strong>
+    <span class="repo-root js-repo-root"><span class="js-path-segment"><a href="/rizkinpratama/book-insultapp-final"><span>book-insultapp-final</span></a></span></span><span class="separator">/</span><span class="js-path-segment"><a href="/rizkinpratama/book-insultapp-final/tree/master/src"><span>src</span></a></span><span class="separator">/</span><span class="js-path-segment"><a href="/rizkinpratama/book-insultapp-final/tree/master/src/main"><span>main</span></a></span><span class="separator">/</span><span class="js-path-segment"><a href="/rizkinpratama/book-insultapp-final/tree/master/src/main/java"><span>java</span></a></span><span class="separator">/</span><span class="js-path-segment"><a href="/rizkinpratama/book-insultapp-final/tree/master/src/main/java/org"><span>org</span></a></span><span class="separator">/</span><span class="js-path-segment"><a href="/rizkinpratama/book-insultapp-final/tree/master/src/main/java/org/openshift"><span>openshift</span></a></span><span class="separator">/</span><strong class="final-path">InsultResource.java</strong>
   </div>
 </div>
 
-<include-fragment class="commit-tease" src="/rizkinpratama/book-insultapp-final/contributors/master/src/main/java/org/openshift/InsultGenerator.java">
+<include-fragment class="commit-tease" src="/rizkinpratama/book-insultapp-final/contributors/master/src/main/java/org/openshift/InsultResource.java">
   <div>
     Fetching contributors&hellip;
   </div>
@@ -553,9 +553,9 @@
   <div class="file-actions">
 
     <div class="btn-group">
-      <a href="/rizkinpratama/book-insultapp-final/raw/master/src/main/java/org/openshift/InsultGenerator.java" class="btn btn-sm " id="raw-url">Raw</a>
-        <a href="/rizkinpratama/book-insultapp-final/blame/master/src/main/java/org/openshift/InsultGenerator.java" class="btn btn-sm js-update-url-with-hash">Blame</a>
-      <a href="/rizkinpratama/book-insultapp-final/commits/master/src/main/java/org/openshift/InsultGenerator.java" class="btn btn-sm " rel="nofollow">History</a>
+      <a href="/rizkinpratama/book-insultapp-final/raw/master/src/main/java/org/openshift/InsultResource.java" class="btn btn-sm " id="raw-url">Raw</a>
+        <a href="/rizkinpratama/book-insultapp-final/blame/master/src/main/java/org/openshift/InsultResource.java" class="btn btn-sm js-update-url-with-hash">Blame</a>
+      <a href="/rizkinpratama/book-insultapp-final/commits/master/src/main/java/org/openshift/InsultResource.java" class="btn btn-sm " rel="nofollow">History</a>
     </div>
 
         <a class="btn-octicon tooltipped tooltipped-nw"
@@ -565,12 +565,12 @@
             <svg aria-hidden="true" class="octicon octicon-device-desktop" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path d="M15 2H1c-.55 0-1 .45-1 1v9c0 .55.45 1 1 1h5.34c-.25.61-.86 1.39-2.34 2h8c-1.48-.61-2.09-1.39-2.34-2H15c.55 0 1-.45 1-1V3c0-.55-.45-1-1-1zm0 9H1V3h14v8z"></path></svg>
         </a>
 
-        <!-- </textarea> --><!-- '"` --><form accept-charset="UTF-8" action="/rizkinpratama/book-insultapp-final/edit/master/src/main/java/org/openshift/InsultGenerator.java" class="inline-form js-update-url-with-hash" data-form-nonce="227240cabcb6e2f398bacbe7e8792ce25f4d22b8" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="nwrxEPk7hR2vUffgmuIk3+TMXg7RKtycRg8TrmeyFtINjKvzh2qUXTffcTBRM6/MFtn3Rdei0Q7aCb9ho8fZ9A==" /></div>
+        <!-- </textarea> --><!-- '"` --><form accept-charset="UTF-8" action="/rizkinpratama/book-insultapp-final/edit/master/src/main/java/org/openshift/InsultResource.java" class="inline-form js-update-url-with-hash" data-form-nonce="227240cabcb6e2f398bacbe7e8792ce25f4d22b8" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="ccRhhafvqk4PhK9ugLcwL5y7gOSP0U1UL18VQN9yE7hgolVjwscBLh3EGs40gXmN8RzvlZrutAV5NE+xC3xUzw==" /></div>
           <button class="btn-octicon tooltipped tooltipped-nw" type="submit"
             aria-label="Edit this file" data-hotkey="e" data-disable-with>
             <svg aria-hidden="true" class="octicon octicon-pencil" height="16" version="1.1" viewBox="0 0 14 16" width="14"><path d="M0 12v3h3l8-8-3-3-8 8zm3 2H1v-2h1v1h1v1zm10.3-9.3L12 6 9 3l1.3-1.3a.996.996 0 0 1 1.41 0l1.59 1.59c.39.39.39 1.02 0 1.41z"></path></svg>
           </button>
-</form>        <!-- </textarea> --><!-- '"` --><form accept-charset="UTF-8" action="/rizkinpratama/book-insultapp-final/delete/master/src/main/java/org/openshift/InsultGenerator.java" class="inline-form" data-form-nonce="227240cabcb6e2f398bacbe7e8792ce25f4d22b8" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="9+xK8VPJSE9Yg/hOfV8AOiOda2ZnyFVLwQZWB8gtGR07S6EMGSZDeRRDriK/RJajOz6U3hJjSOGZ/mKxqS8lyA==" /></div>
+</form>        <!-- </textarea> --><!-- '"` --><form accept-charset="UTF-8" action="/rizkinpratama/book-insultapp-final/delete/master/src/main/java/org/openshift/InsultResource.java" class="inline-form" data-form-nonce="227240cabcb6e2f398bacbe7e8792ce25f4d22b8" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="RNeGoYrKOjsyL3Ce0KTFRNVrBU0gorjzJ4UUvi35uUBxgNI+HUlMpbgnXr676YgdWjjdCivqBSOwhMPbsFaxvQ==" /></div>
           <button class="btn-octicon btn-octicon-danger tooltipped tooltipped-nw" type="submit"
             aria-label="Delete this file" data-disable-with>
             <svg aria-hidden="true" class="octicon octicon-trashcan" height="16" version="1.1" viewBox="0 0 12 16" width="12"><path d="M11 2H9c0-.55-.45-1-1-1H5c-.55 0-1 .45-1 1H2c-.55 0-1 .45-1 1v1c0 .55.45 1 1 1v9c0 .55.45 1 1 1h7c.55 0 1-.45 1-1V5c.55 0 1-.45 1-1V3c0-.55-.45-1-1-1zm-1 12H3V5h1v8h1V5h1v8h1V5h1v8h1V5h1v9zm1-10H2V3h9v1z"></path></svg>
@@ -578,9 +578,9 @@
 </form>  </div>
 
   <div class="file-info">
-      42 lines (37 sloc)
+      21 lines (17 sloc)
       <span class="file-info-divider"></span>
-    1.31 KB
+    485 Bytes
   </div>
 </div>
 
@@ -599,166 +599,76 @@
       </tr>
       <tr>
         <td id="L3" class="blob-num js-line-number" data-line-number="3"></td>
-        <td id="LC3" class="blob-code blob-code-inner js-file-line"><span class="pl-k">import</span> <span class="pl-smi">java.sql.Connection</span>;</td>
+        <td id="LC3" class="blob-code blob-code-inner js-file-line"><span class="pl-k">import</span> <span class="pl-smi">java.util.HashMap</span>;</td>
       </tr>
       <tr>
         <td id="L4" class="blob-num js-line-number" data-line-number="4"></td>
-        <td id="LC4" class="blob-code blob-code-inner js-file-line"><span class="pl-k">import</span> <span class="pl-smi">java.sql.DriverManager</span>;</td>
+        <td id="LC4" class="blob-code blob-code-inner js-file-line"><span class="pl-k">import</span> <span class="pl-smi">javax.enterprise.context.RequestScoped</span>;</td>
       </tr>
       <tr>
         <td id="L5" class="blob-num js-line-number" data-line-number="5"></td>
-        <td id="LC5" class="blob-code blob-code-inner js-file-line"><span class="pl-k">import</span> <span class="pl-smi">java.sql.ResultSet</span>;</td>
+        <td id="LC5" class="blob-code blob-code-inner js-file-line"><span class="pl-k">import</span> <span class="pl-smi">javax.ws.rs.GET</span>;</td>
       </tr>
       <tr>
         <td id="L6" class="blob-num js-line-number" data-line-number="6"></td>
-        <td id="LC6" class="blob-code blob-code-inner js-file-line"><span class="pl-k">import</span> <span class="pl-smi">java.sql.Statement</span>;</td>
+        <td id="LC6" class="blob-code blob-code-inner js-file-line"><span class="pl-k">import</span> <span class="pl-smi">javax.ws.rs.Path</span>;</td>
       </tr>
       <tr>
         <td id="L7" class="blob-num js-line-number" data-line-number="7"></td>
-        <td id="LC7" class="blob-code blob-code-inner js-file-line">
-</td>
+        <td id="LC7" class="blob-code blob-code-inner js-file-line"><span class="pl-k">import</span> <span class="pl-smi">javax.ws.rs.Produces</span>;</td>
       </tr>
       <tr>
         <td id="L8" class="blob-num js-line-number" data-line-number="8"></td>
-        <td id="LC8" class="blob-code blob-code-inner js-file-line"><span class="pl-k">public</span> <span class="pl-k">class</span> <span class="pl-en">InsultGenerator</span> {</td>
+        <td id="LC8" class="blob-code blob-code-inner js-file-line">
+</td>
       </tr>
       <tr>
         <td id="L9" class="blob-num js-line-number" data-line-number="9"></td>
-        <td id="LC9" class="blob-code blob-code-inner js-file-line">	<span class="pl-k">public</span> <span class="pl-smi">String</span> <span class="pl-en">generateInsult</span>() {</td>
+        <td id="LC9" class="blob-code blob-code-inner js-file-line">@<span class="pl-smi">RequestScoped</span></td>
       </tr>
       <tr>
         <td id="L10" class="blob-num js-line-number" data-line-number="10"></td>
-        <td id="LC10" class="blob-code blob-code-inner js-file-line">		<span class="pl-smi">String</span> vowels <span class="pl-k">=</span> <span class="pl-s"><span class="pl-pds">&quot;</span>AEIOU<span class="pl-pds">&quot;</span></span>;</td>
+        <td id="LC10" class="blob-code blob-code-inner js-file-line">@Path(<span class="pl-s"><span class="pl-pds">&quot;</span>/insult<span class="pl-pds">&quot;</span></span>)</td>
       </tr>
       <tr>
         <td id="L11" class="blob-num js-line-number" data-line-number="11"></td>
-        <td id="LC11" class="blob-code blob-code-inner js-file-line">		<span class="pl-smi">String</span> article <span class="pl-k">=</span> <span class="pl-s"><span class="pl-pds">&quot;</span>an<span class="pl-pds">&quot;</span></span>;</td>
+        <td id="LC11" class="blob-code blob-code-inner js-file-line"><span class="pl-k">public</span> <span class="pl-k">class</span> <span class="pl-en">InsultResource</span> {</td>
       </tr>
       <tr>
         <td id="L12" class="blob-num js-line-number" data-line-number="12"></td>
-        <td id="LC12" class="blob-code blob-code-inner js-file-line">		<span class="pl-smi">String</span> theInsult <span class="pl-k">=</span> <span class="pl-s"><span class="pl-pds">&quot;</span><span class="pl-pds">&quot;</span></span>;</td>
+        <td id="LC12" class="blob-code blob-code-inner js-file-line">	</td>
       </tr>
       <tr>
         <td id="L13" class="blob-num js-line-number" data-line-number="13"></td>
-        <td id="LC13" class="blob-code blob-code-inner js-file-line">		</td>
+        <td id="LC13" class="blob-code blob-code-inner js-file-line">	<span class="pl-k">@GET</span>()</td>
       </tr>
       <tr>
         <td id="L14" class="blob-num js-line-number" data-line-number="14"></td>
-        <td id="LC14" class="blob-code blob-code-inner js-file-line">		<span class="pl-k">try</span> {</td>
+        <td id="LC14" class="blob-code blob-code-inner js-file-line">	<span class="pl-k">@Produces</span>(<span class="pl-s"><span class="pl-pds">&quot;</span>application/json<span class="pl-pds">&quot;</span></span>)</td>
       </tr>
       <tr>
         <td id="L15" class="blob-num js-line-number" data-line-number="15"></td>
-        <td id="LC15" class="blob-code blob-code-inner js-file-line">			<span class="pl-smi">String</span> databaseURL <span class="pl-k">=</span> <span class="pl-s"><span class="pl-pds">&quot;</span>jdbc:postgresql://<span class="pl-pds">&quot;</span></span>;</td>
+        <td id="LC15" class="blob-code blob-code-inner js-file-line">	<span class="pl-k">public</span> <span class="pl-k">HashMap&lt;<span class="pl-smi">String</span>,<span class="pl-smi">String</span>&gt;</span> <span class="pl-en">getInsult</span>() {</td>
       </tr>
       <tr>
         <td id="L16" class="blob-num js-line-number" data-line-number="16"></td>
-        <td id="LC16" class="blob-code blob-code-inner js-file-line">			databaseURL <span class="pl-k">+=</span> <span class="pl-smi">System</span><span class="pl-k">.</span>getenv(<span class="pl-s"><span class="pl-pds">&quot;</span>POSTGRESQL_SERVICE_HOST<span class="pl-pds">&quot;</span></span>);</td>
+        <td id="LC16" class="blob-code blob-code-inner js-file-line">		<span class="pl-k">HashMap&lt;<span class="pl-smi">String</span>, <span class="pl-smi">String</span>&gt;</span> theInsult <span class="pl-k">=</span> <span class="pl-k">new</span> <span class="pl-k">HashMap&lt;<span class="pl-smi">String</span>, <span class="pl-smi">String</span>&gt;</span>();</td>
       </tr>
       <tr>
         <td id="L17" class="blob-num js-line-number" data-line-number="17"></td>
-        <td id="LC17" class="blob-code blob-code-inner js-file-line">			databaseURL <span class="pl-k">+=</span> <span class="pl-s"><span class="pl-pds">&quot;</span>/<span class="pl-pds">&quot;</span></span> <span class="pl-k">+</span> <span class="pl-smi">System</span><span class="pl-k">.</span>getenv(<span class="pl-s"><span class="pl-pds">&quot;</span>POSTGRESQL_DATABASE<span class="pl-pds">&quot;</span></span>);</td>
+        <td id="LC17" class="blob-code blob-code-inner js-file-line">		theInsult<span class="pl-k">.</span>put(<span class="pl-s"><span class="pl-pds">&quot;</span>insult<span class="pl-pds">&quot;</span></span>, <span class="pl-k">new</span> <span class="pl-smi">InsultGenerator</span>()<span class="pl-k">.</span>generateInsult());</td>
       </tr>
       <tr>
         <td id="L18" class="blob-num js-line-number" data-line-number="18"></td>
-        <td id="LC18" class="blob-code blob-code-inner js-file-line">
-</td>
+        <td id="LC18" class="blob-code blob-code-inner js-file-line">		<span class="pl-k">return</span> theInsult;</td>
       </tr>
       <tr>
         <td id="L19" class="blob-num js-line-number" data-line-number="19"></td>
-        <td id="LC19" class="blob-code blob-code-inner js-file-line">			<span class="pl-smi">String</span> username <span class="pl-k">=</span> <span class="pl-smi">System</span><span class="pl-k">.</span>getenv(<span class="pl-s"><span class="pl-pds">&quot;</span>POSTGRESQL_USER<span class="pl-pds">&quot;</span></span>);</td>
+        <td id="LC19" class="blob-code blob-code-inner js-file-line">	}</td>
       </tr>
       <tr>
         <td id="L20" class="blob-num js-line-number" data-line-number="20"></td>
-        <td id="LC20" class="blob-code blob-code-inner js-file-line">			<span class="pl-smi">String</span> password <span class="pl-k">=</span> <span class="pl-smi">System</span><span class="pl-k">.</span>getenv(<span class="pl-s"><span class="pl-pds">&quot;</span>PGPASSWORD<span class="pl-pds">&quot;</span></span>);</td>
-      </tr>
-      <tr>
-        <td id="L21" class="blob-num js-line-number" data-line-number="21"></td>
-        <td id="LC21" class="blob-code blob-code-inner js-file-line">			<span class="pl-smi">Connection</span> connection <span class="pl-k">=</span> <span class="pl-smi">DriverManager</span><span class="pl-k">.</span>getConnection(databaseURL, username, password);</td>
-      </tr>
-      <tr>
-        <td id="L22" class="blob-num js-line-number" data-line-number="22"></td>
-        <td id="LC22" class="blob-code blob-code-inner js-file-line">
-</td>
-      </tr>
-      <tr>
-        <td id="L23" class="blob-num js-line-number" data-line-number="23"></td>
-        <td id="LC23" class="blob-code blob-code-inner js-file-line">			<span class="pl-k">if</span> (connection <span class="pl-k">!=</span> <span class="pl-c1">null</span>) {</td>
-      </tr>
-      <tr>
-        <td id="L24" class="blob-num js-line-number" data-line-number="24"></td>
-        <td id="LC24" class="blob-code blob-code-inner js-file-line">				<span class="pl-smi">String</span> <span class="pl-c1">SQL</span> <span class="pl-k">=</span> <span class="pl-s"><span class="pl-pds">&quot;</span>select a.string AS first, b.string AS second, c.string AS noun from short_adjective a , long_adjective b, noun c ORDER BY random() limit 1<span class="pl-pds">&quot;</span></span>;</td>
-      </tr>
-      <tr>
-        <td id="L25" class="blob-num js-line-number" data-line-number="25"></td>
-        <td id="LC25" class="blob-code blob-code-inner js-file-line">				<span class="pl-smi">Statement</span> stmt <span class="pl-k">=</span> connection<span class="pl-k">.</span>createStatement();</td>
-      </tr>
-      <tr>
-        <td id="L26" class="blob-num js-line-number" data-line-number="26"></td>
-        <td id="LC26" class="blob-code blob-code-inner js-file-line">				<span class="pl-smi">ResultSet</span> rs <span class="pl-k">=</span> stmt<span class="pl-k">.</span>executeQuery(<span class="pl-c1">SQL</span>);</td>
-      </tr>
-      <tr>
-        <td id="L27" class="blob-num js-line-number" data-line-number="27"></td>
-        <td id="LC27" class="blob-code blob-code-inner js-file-line">				<span class="pl-k">while</span> (rs<span class="pl-k">.</span>next()) {</td>
-      </tr>
-      <tr>
-        <td id="L28" class="blob-num js-line-number" data-line-number="28"></td>
-        <td id="LC28" class="blob-code blob-code-inner js-file-line">					<span class="pl-k">if</span> (vowels<span class="pl-k">.</span>indexOf(rs<span class="pl-k">.</span>getString(<span class="pl-s"><span class="pl-pds">&quot;</span>first<span class="pl-pds">&quot;</span></span>)<span class="pl-k">.</span>charAt(<span class="pl-c1">0</span>)) <span class="pl-k">==</span> <span class="pl-k">-</span><span class="pl-c1">1</span>) {</td>
-      </tr>
-      <tr>
-        <td id="L29" class="blob-num js-line-number" data-line-number="29"></td>
-        <td id="LC29" class="blob-code blob-code-inner js-file-line">						article <span class="pl-k">=</span> <span class="pl-s"><span class="pl-pds">&quot;</span>a<span class="pl-pds">&quot;</span></span>;</td>
-      </tr>
-      <tr>
-        <td id="L30" class="blob-num js-line-number" data-line-number="30"></td>
-        <td id="LC30" class="blob-code blob-code-inner js-file-line">					}</td>
-      </tr>
-      <tr>
-        <td id="L31" class="blob-num js-line-number" data-line-number="31"></td>
-        <td id="LC31" class="blob-code blob-code-inner js-file-line">					theInsult <span class="pl-k">=</span>  <span class="pl-smi">String</span><span class="pl-k">.</span>format(<span class="pl-s"><span class="pl-pds">&quot;</span>Thou art %s %s %s %s!<span class="pl-pds">&quot;</span></span>, article, rs<span class="pl-k">.</span>getString(<span class="pl-s"><span class="pl-pds">&quot;</span>first<span class="pl-pds">&quot;</span></span>),</td>
-      </tr>
-      <tr>
-        <td id="L32" class="blob-num js-line-number" data-line-number="32"></td>
-        <td id="LC32" class="blob-code blob-code-inner js-file-line">							rs<span class="pl-k">.</span>getString(<span class="pl-s"><span class="pl-pds">&quot;</span>second<span class="pl-pds">&quot;</span></span>), rs<span class="pl-k">.</span>getString(<span class="pl-s"><span class="pl-pds">&quot;</span>noun<span class="pl-pds">&quot;</span></span>));</td>
-      </tr>
-      <tr>
-        <td id="L33" class="blob-num js-line-number" data-line-number="33"></td>
-        <td id="LC33" class="blob-code blob-code-inner js-file-line">				}</td>
-      </tr>
-      <tr>
-        <td id="L34" class="blob-num js-line-number" data-line-number="34"></td>
-        <td id="LC34" class="blob-code blob-code-inner js-file-line">				rs<span class="pl-k">.</span>close();</td>
-      </tr>
-      <tr>
-        <td id="L35" class="blob-num js-line-number" data-line-number="35"></td>
-        <td id="LC35" class="blob-code blob-code-inner js-file-line">				connection<span class="pl-k">.</span>close();</td>
-      </tr>
-      <tr>
-        <td id="L36" class="blob-num js-line-number" data-line-number="36"></td>
-        <td id="LC36" class="blob-code blob-code-inner js-file-line">			}</td>
-      </tr>
-      <tr>
-        <td id="L37" class="blob-num js-line-number" data-line-number="37"></td>
-        <td id="LC37" class="blob-code blob-code-inner js-file-line">		} <span class="pl-k">catch</span> (<span class="pl-smi">Exception</span> e) {</td>
-      </tr>
-      <tr>
-        <td id="L38" class="blob-num js-line-number" data-line-number="38"></td>
-        <td id="LC38" class="blob-code blob-code-inner js-file-line">			<span class="pl-k">return</span> <span class="pl-s"><span class="pl-pds">&quot;</span>Database connection problem!<span class="pl-pds">&quot;</span></span>;</td>
-      </tr>
-      <tr>
-        <td id="L39" class="blob-num js-line-number" data-line-number="39"></td>
-        <td id="LC39" class="blob-code blob-code-inner js-file-line">		}</td>
-      </tr>
-      <tr>
-        <td id="L40" class="blob-num js-line-number" data-line-number="40"></td>
-        <td id="LC40" class="blob-code blob-code-inner js-file-line">		<span class="pl-k">return</span> theInsult;</td>
-      </tr>
-      <tr>
-        <td id="L41" class="blob-num js-line-number" data-line-number="41"></td>
-        <td id="LC41" class="blob-code blob-code-inner js-file-line">	}</td>
-      </tr>
-      <tr>
-        <td id="L42" class="blob-num js-line-number" data-line-number="42"></td>
-        <td id="LC42" class="blob-code blob-code-inner js-file-line">}</td>
+        <td id="LC20" class="blob-code blob-code-inner js-file-line">}</td>
       </tr>
 </table>
 
@@ -799,7 +709,7 @@
       <svg aria-hidden="true" class="octicon octicon-mark-github" height="24" version="1.1" viewBox="0 0 16 16" width="24"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0 0 16 8c0-4.42-3.58-8-8-8z"></path></svg>
 </a>
     <ul class="site-footer-links">
-      <li>&copy; 2016 <span title="0.11801s from github-fe123-cp1-prd.iad.github.net">GitHub</span>, Inc.</li>
+      <li>&copy; 2016 <span title="0.20300s from github-fe144-cp1-prd.iad.github.net">GitHub</span>, Inc.</li>
         <li><a href="https://github.com/site/terms" data-ga-click="Footer, go to terms, text:terms">Terms</a></li>
         <li><a href="https://github.com/site/privacy" data-ga-click="Footer, go to privacy, text:privacy">Privacy</a></li>
         <li><a href="https://github.com/security" data-ga-click="Footer, go to security, text:security">Security</a></li>
